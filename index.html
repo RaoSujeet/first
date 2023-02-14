@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first websiste</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+    body{
+    background-color: 0000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+nav{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;}
+   h2{
+         text-align: center;
+   }
+    p{
+        text-align: center;
+    }
+  #parent{
+    border: 1px;
+    display: flex;
+    justify-content: space-evenly;
+  } 
+  #parent > div{
+    text-align: center;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ border-radius: 10px;
+} 
+ img{
+    width: 340px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+ }
+ p + img{
+    width: 140px;
+    height: 100px;
+ }
+    </style>
+</head>
+<body>
+    <header><h1>My Web</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2><strong>Namaste</strong></h2>
+        <p> this is my first demo website and here we are talking about web devlopment <br> 
+            First thing we discuss here that why we are learn web devlopment <br>
+            So we thing is what is html and whats is use <br>
+            what is css and what is the use of css  </p>
+            <h1>Our aim</h1>
+            <p>we are a group of lawyers and we want to provide legal aid in rural India <br>
+            because they are not understand there fundamental right and we are want to aware them about their Right's 
+        </p>
+        <h1>Our Invester</h1>
+        <div id="parent">
+            <div>
+                <img src="/image/sujeet2.jfif" alt="Sujeet Kumar">
+                <h3>Sujeet Kumar</h3>
+                <p>Founder</p>
+                <img src="/image/Paytm-Logo.wine.png" alt="Paytm-Logo">
+            </div>
+            <div>
+                <img src="/image/sujeet3.jfif" alt="Sujeetr">
+                <h3>Sujeet Kumar</h3>
+                <p>Founder</p>
+                <img src="/image/Paytm-Logo.wine.png" alt="Paytm-Logo">
+            </div>
+            <div>
+                <img src="/image/sujeet2.jfif" alt="Sujeet">
+                <h3>Sujeet Kumar</h3>
+                <p>Founder</p>
+                <img src="/image/Paytm-Logo.wine.png" alt="Paytm-Logo">
+            </div>
+            <div>
+                <img src="/image/sujeet3.jfif" alt="Sujeet">
+                <h3>Sujeet Kumar</h3>
+                <p>Founder</p>
+                <img src="/image/Paytm-Logo.wine.png" alt="Paytm-Logo">
+            </div>
+         </div>
+    </main>
+        <footer>
+            <p>Copyright © 2023 My Web <br> All rights reserved. <br>
+                term and conditions <br>
+                privacy policy</p>
+        </footer>   
+</body>
+</html>
